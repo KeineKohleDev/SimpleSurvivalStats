@@ -1,0 +1,8 @@
+name: SimpleStats
+version: '${project.version}'
+main: net.keinekohle.simplestats.main.Main
+api-version: 1.19
+
+commands:
+  stats:
+    description: 'Shows stats of a player'
