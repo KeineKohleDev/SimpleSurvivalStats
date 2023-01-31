@@ -1,7 +1,7 @@
 package net.keinekohle.simplestats.classes;
 
+import net.keinekohle.simplestats.util.Constance;
 import net.keinekohle.simplestats.util.ItemBuilder;
-import net.keinekohle.simplestats.util.StatsTitels;
 import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
@@ -26,9 +26,9 @@ public class StatsCategory
         for (int i = 0; i < this.getStats().size(); i++)
         {
             if (i % 2 == 0)
-                this.getStats().set(i, StatsTitels.FIRST_LINE_COLOR + this.getStats().get(i));
+                this.getStats().set(i, Constance.FIRST_LINE_COLOR + this.getStats().get(i));
             else
-                this.getStats().set(i, StatsTitels.SECOND_LINE_COLOR + this.getStats().get(i));
+                this.getStats().set(i, Constance.SECOND_LINE_COLOR + this.getStats().get(i));
         }
     }
 

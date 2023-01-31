@@ -1,4 +1,4 @@
-name: SimpleStats
+name: SimpleSurvivalStats
 version: '${project.version}'
 main: net.keinekohle.simplestats.main.Main
 api-version: 1.19
