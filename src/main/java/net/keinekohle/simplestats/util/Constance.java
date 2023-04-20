@@ -9,7 +9,6 @@ public class Constance
     public static final String LANG_FILE_NAME = "language.yml";
     public static final String PATH_DELIMITER = "/";
     public static final String PATH_TO_LANG_FILE = Main.getPlugin(Main.class).getDataFolder() + PATH_DELIMITER + LANG_FILE_NAME;
-    public static final String UTILITY_CLASS = "Utility class";
     public static final String FIRST_LINE_COLOR = "§7";
     public static final String SECOND_LINE_COLOR = "§8";
     public static final String DISTANCE_IN_KM = " km";
